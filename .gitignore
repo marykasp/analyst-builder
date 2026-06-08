@@ -1,0 +1,27 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.code-workspace
+
+# SQL tool files
+*.db
+*.sqlite
+*.sqlite3
+
+# CSV exports (add individually if you want to track specific ones)
+*.csv
+
+# Jupyter Notebooks (if used later)
+.ipynb_checkpoints/
+
+# Python (if used later)
+__pycache__/
+*.pyc
+.env
+
+# Logs
+*.log
