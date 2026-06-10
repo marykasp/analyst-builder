@@ -2,7 +2,7 @@
 -- Lesson: WHERE clause
 -- Course: MySQL for Data Analytics
 -- Date: June 10, 2026
--- =============================================alter
+-- =============================================
 USE bakery;
 
 -- filter records/rows of data that meet a specified condition
