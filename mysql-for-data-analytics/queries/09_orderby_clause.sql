@@ -2,7 +2,7 @@
 -- Lesson: ORDER BY clause
 -- Course: MySQL for Data Analytics
 -- Date: June 16, 2026
--- =============================================alter
+-- =============================================
 
 USE bakery;
 
