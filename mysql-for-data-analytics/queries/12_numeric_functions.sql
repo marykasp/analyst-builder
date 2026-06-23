@@ -2,7 +2,7 @@
 -- Lesson: Numeric Functions
 -- Course: MySQL for Data Analytics
 -- Date: June 22, 2026
--- =============================================alter
+-- =============================================
 
 USE bakery;
 
@@ -24,3 +24,6 @@ FROM products;
 -- Round sale price to nearest whole number
 SELECT sale_price, CEILING(sale_price), FLOOR(sale_price)
 FROM products;
+
+-- ABS returns absolute whole number of given value
+SELECT ABS(4.6);
