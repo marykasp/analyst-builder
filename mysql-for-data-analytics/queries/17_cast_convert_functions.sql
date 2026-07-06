@@ -15,3 +15,7 @@ SELECT birth_date,
 CAST(birth_date AS DATETIME),
 CONVERT(birth_date, DATETIME)
 FROM customers;
+
+SELECT first_name,
+CAST(first_name AS CHAR)
+FROM customers;
