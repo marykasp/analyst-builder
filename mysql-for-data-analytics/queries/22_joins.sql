@@ -37,3 +37,5 @@ ON customers.customer_id = customer_orders.customer_id;
 
 # Full (Outer) Joins
 -- returns all records from both tables: left and right table combined
+
+# Self Join - table is joined to itself
