@@ -11,8 +11,12 @@ Due to this, data architects, data engineers, and database developers design the
 An INNER JOIN in SQL is a type of join that returns the rows from both tables where there is a match based on the specified condition. If there is no match, no rows will be returned.
 
 Basic Syntax:
+
+```sql
 SELECT column_name(s)
 FROM table1
 INNER JOIN table2
 ON table1.column_name = table2.column_name;
+```
+
 This is probably the most commonly used type of join that you’ll use.
