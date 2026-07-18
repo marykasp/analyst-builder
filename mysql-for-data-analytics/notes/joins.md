@@ -25,7 +25,7 @@ This is probably the most commonly used type of join that you’ll use.
 
 An OUTER JOIN in SQL is a type of join that returns all the rows from one table and the matched rows from another table. If there is no match, the result is NULL on the side of the table that doesn't have a match.
 
-LEFT OUTER JOIN
+# LEFT OUTER JOIN
 
 There is an LEFT OUTER JOIN which will return everything from the “Left” table (or the table in the FROM statement.
 
@@ -48,3 +48,13 @@ FROM table1
 RIGHT OUTER JOIN table2
 ON table1.column_name = table2.column_name;
 ```
+
+# SELF JOIN
+
+A SELF JOIN in SQL is a type of join where a table is joined to itself. It isn’t an actual built-in join like an INNER JOIN or OUTER JOIN, but rather a technique where you can join a table to itself as if it were two tables.
+
+Syntax:
+SELECT a.column_name, b.column_name
+FROM table_name AS a
+JOIN table_name AS b
+ON a.common_field = b.common_field;
